@@ -5,7 +5,6 @@ import country_converter as coco
 def iso2_to_iso3(iso2):  # country code converter
     return coco.convert(names=[iso2], to='ISO3')
 
-
 def main():
     # read csvs
     gdp = pd.read_csv("./gdp_2017.csv")
